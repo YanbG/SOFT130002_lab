@@ -1,0 +1,189 @@
+/*structure*/
+
+header{
+    margin: 0;
+    padding:0;
+    width:100%;
+    height:100%;
+    height: 600pt;
+}
+
+#motto:hover{
+    font-size: 40pt;
+    transition-duration: 2s;
+}
+
+footer{
+    margin:0;
+    pading:0;
+    bottom:0;
+    left:0;
+    right:0;
+    width:100%;
+    height:100%;
+    background-color: black;
+    position:fixed;
+    height:15pt;
+    text-align: center;
+}
+
+
+#bgv{
+    object-fit: cover;
+    position: fixed;
+    bottom: 0;
+    right:0;
+    bottom:0;
+    min-width: 100%;
+    min-height:100%;
+    filter: opacity(60%);
+}
+
+section{
+    margin:0;
+    padding:0;
+    width: 100%;
+    height:100%;
+    height:700pt;
+    top:0;
+
+}
+
+article{
+    margin: 0;
+    padding:0;
+    width:100%;
+    height:100%;
+}
+
+nav{
+    list-style-type: none;
+    text-align: center;
+    top:0;
+}
+
+/*本来写的是nav.li 后俩改成了nav li就可以inline了*/
+
+nav ul{
+    padding-top: 30pt;
+}
+
+nav li{
+    display: inline;
+    word-spacing: 50mm;
+    text-align: center;
+    background-radius: 25px;
+}
+
+nav li:hover{
+    background-color: rgba(100,100,100,.77);
+    font-size: 20pt;
+    font-palette: light;
+    transition-duration: 1s;
+}
+
+/*content*/
+
+body{
+    font-family: Copperplate;
+    font-weight: lighter;
+}
+h1{
+    font-size: 60pt;
+    margin:0;
+    padding:0;
+    color: black;
+    border-bottom-color: #575065;
+    font-family: Copperplate;
+    position: center;
+    text-align: center;
+    vertical-align: central;
+}
+
+
+
+
+h1 span{
+    font-size: 10pt;
+    display: block;
+}
+
+.motto{
+    font-size: 10pt;
+    text-align: center;
+    vertical-align: center;
+    position:center;
+}
+
+img#navigation{
+    position: absolute;
+    right:0;
+    top:0;
+    width:20pt;
+    height:20pt;
+}
+
+.viewport_header{
+    position:relative;
+}
+
+.gallery{
+    position: relative;
+}
+
+.show{
+    filter: opacity(10%);
+}
+
+.show:hover{
+    filter:opacity(100%);
+    transition-duration: 2s;
+}
+
+
+table{
+    border-spacing: 30pt;
+}
+
+th{
+    font-weight: bold;
+    filter:opacity(.6);
+}
+th:hover{
+    filter:opacity(100%);
+    transition-duration: 1s;
+}
+td{
+    max-width: 200px;
+    overflow: scroll;
+    filter:opacity(.7);
+}
+
+td:hover{
+    filter:opacity(100%);
+    transition-duration: .5s;
+    font-size: larger;
+}
+
+input.search:hover{
+    background-color: darkgrey;
+    transition-duration: 1s;
+}
+
+button.search:hover{
+    background-color: darkgrey;
+    transition-duration: 1s;
+}
+
+ul{
+    list-style-type: none;
+}
+
+
+#menu:hover{
+    background-color: black;
+    filter:opacity(.66);
+    font-size: larger;
+    transition-duration: 2s;
+    color: antiquewhite;
+}
